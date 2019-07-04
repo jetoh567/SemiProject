@@ -9,15 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class Fragment_1 extends Fragment {
-
-    public Fragment_1() {}
+public class fragment_1 extends Fragment {
+    public fragment_1() {}
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Fragment UI 생성
-        View view = inflater.inflate(R.layout.activity_fragment_1, container, false);
+        View view = inflater.inflate(R.layout.fragment_1, container, false);
 
         // 새 메모작성 버튼
         Button btnNewmemo = view.findViewById(R.id.btnNewmemo);

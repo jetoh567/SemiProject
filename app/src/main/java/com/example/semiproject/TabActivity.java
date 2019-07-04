@@ -56,9 +56,9 @@ public class TabActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch(position) {
                 case 0:
-                    return new Fragment_1();
+                    return new fragment_1();
                 case 1:
-                    return new Fragment_1();
+                    return new fragment_2();
 
             }
 
