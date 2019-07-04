@@ -3,11 +3,11 @@ package com.example.semiproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class memberInfo extends AppCompatActivity {
+public class createMemoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.memberInfo);
+        setContentView(R.layout.activity_create_memo);
     }
 }
